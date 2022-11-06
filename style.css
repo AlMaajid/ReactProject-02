@@ -1,0 +1,326 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #1A1B21;
+}
+
+.lala-image{
+  width: 100%;
+}
+
+.lala-name{
+  text-transform: capitalize;
+  margin-top: 2.5rem ;
+  font-weight: 700;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: .1rem;
+}
+
+.lala-role{
+  margin-top: .6rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.lala-mail{
+  display: block;
+  text-align: center;
+  margin-top: .8rem;
+  color: #F5F5F5;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1rem;
+  cursor: pointer;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mail-btn{
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin: 2rem;
+  background-color: #FFF;
+  border: none;
+  /* border: .1rem solid #D1D5DB; */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.mail-btn>a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.role-btn{
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin: 2rem;
+  color: #FFF;
+  background-color: #5093E2;
+  border: none;
+  /* border: .1rem solid #D1D5DB; */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+ 
+.role-btn>a{
+  text-decoration: none;
+  color: #FFF;
+
+}
+
+.fa-envelope, .fa-linkedin{
+  margin-right: 1rem;
+}
+
+.aboutInterest{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container{
+  color: #FFF;
+  padding: 1rem 4.5rem;
+  margin-top: 1rem;
+}
+
+.about-title{
+  text-align: left;
+  color: #F5F5F5;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.about-content{
+  margin-top: 0.5rem;
+  color: #DCDCDC;;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.interest-container{
+  color: #FFF;
+  padding: 1rem 4.5rem;
+  margin-top: 1rem;
+}
+
+.interest-title{
+  text-transform: capitalize;
+  color: #F5F5F5;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.interest-content{
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+  color: #DCDCDC;;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.footer-container{
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  display: flex;
+ justify-content: center;
+}
+
+.brands{
+  color: #918E9B;
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .lala-name{
+    margin-top: 3rem ;
+    font-size: 3rem;
+    letter-spacing: .4rem;
+  }
+  
+  .lala-role{
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  
+  .lala-mail{
+    margin-top: 1.2rem;
+    font-size: 1.25rem;
+  }
+  
+  .mail-btn{
+    padding: 1rem 2rem;
+    margin: 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+  }
+
+  
+  .role-btn{
+    padding: 1rem 2rem;
+    margin: 3rem;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+  }
+  
+  .aboutInterest{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .about-container{
+    color: #FFF;
+    padding: 2rem 12rem;
+    margin-top: 1rem;
+  }
+  
+  .about-title{
+    font-size: 2rem;
+  }
+  
+  .about-content{
+    margin-top: 1.25rem;
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
+  .interest-container{
+    color: #FFF;
+    padding: 2rem 12rem;
+    margin-top: 1rem;
+  }
+  
+  .interest-title{
+    font-size: 2rem;
+  }
+  
+  .interest-content{
+    margin-top: 1.25rem;
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  
+  
+  .footer-container{
+    margin-top: 3rem;
+    padding: 4rem 2rem;
+  }
+  
+  .brands{
+    margin-right: 4rem;
+    font-size: 3rem;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+  .lala-name{
+    margin-top:5rem ;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+  }
+  
+  .lala-role{
+    margin-top: 2rem;
+    font-size: 3.5rem;
+  }
+  
+  .lala-mail{
+    margin-top: 2.5rem;
+    font-size: 2rem;
+  }
+  
+  .mail-btn{
+    padding: 2rem 4rem;
+    margin: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+  }
+
+  
+  .role-btn{
+    padding: 2rem 4rem;
+    margin: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+  }
+  
+  .aboutInterest{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .about-container{
+    color: #FFF;
+    padding: 4rem 15rem;
+    margin-top: 1rem;
+  }
+  
+  .about-title{
+    font-size: 4rem;
+  }
+  
+  .about-content{
+    margin-top: 2rem;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+
+  .interest-container{
+    color: #FFF;
+    padding: 4rem 15rem;
+    margin-top: 1rem;
+  }
+  
+  .interest-title{
+    font-size: 4rem;
+  }
+  
+  .interest-content{
+    margin-top: 2rem;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  
+  .brands{
+    padding: 2rem 2rem;
+    margin-right: 5rem;
+    font-size: 4rem;
+  }
+}
